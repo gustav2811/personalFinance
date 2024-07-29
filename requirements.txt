@@ -1,0 +1,35 @@
+# requirements.txt
+
+# Core dependencies
+numpy==1.24.2
+pandas==1.5.3
+scikit-learn==1.2.2
+matplotlib==3.6.3
+seaborn==0.12.2
+pathlib==1.0.1
+
+# Data handling and processing
+sqlalchemy==2.0.0
+pymupdf==1.24.9
+pymupdf4llm==0.0.10
+
+# API
+flask==2.3.2
+flask-restful==0.3.9
+
+# Logging
+loguru==0.6.0
+
+# Misc
+requests==2.28.2
+tqdm==4.64.1
+
+# Testing
+pytest==7.2.2
+pytest-cov==4.0.0
+
+# Documentation
+sphinx==5.3.0
+
+# Others
+pydantic==1.10.4
