@@ -1,0 +1,16 @@
+# src/utils/__init__.py
+
+from .logger import setup_logging, log_info, log_error
+from .helper import calculate_budget, format_currency, get_current_date
+from .visualisation import plot_budget_distribution, plot_expense_trends
+
+__all__ = [
+    "setup_logging",
+    "log_info",
+    "log_error",
+    "calculate_budget",
+    "format_currency",
+    "get_current_date",
+    "plot_budget_distribution",
+    "plot_expense_trends",
+]
